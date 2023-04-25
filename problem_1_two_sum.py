@@ -23,8 +23,6 @@ Constraints:
 Only one valid answer exists. 
 """
 
-
-
 class Solution:
     def twoSum(self, nums, target):
         nums_as_map = {nums[index]:index for index in range(len(nums))}
